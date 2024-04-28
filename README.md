@@ -1,3 +1,3 @@
 # Portifolio
 
-https://DevLucasP.github.io/Portifolio/index.html
+https://devlucasp.github.io/Portifolio/index.html

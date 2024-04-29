@@ -320,61 +320,11 @@ nav {
     padding-bottom: 0;
 }
 
-#footer_social_media {
-    display: inline-flex;
-    margin-left: 55%;
-    background: #23232e;
-    width: 220px;
-    border-radius: 35px;
-    padding: 6px;
-    gap: 2rem;
-    position: relative;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    margin-top: 1.5rem;
-}
-
-#footer_social_media .footer-link{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 2.5rem;
-    width: 2.5rem;
-    color: var(--color-neutral-40);
-    border-radius: 50%;
-    transition: all 0.4s;
-}
-
-#footer_social_media .footer-link i{
-    font-size: 1.25rem;
-} 
-
-#footer_social_media .footer-link:hover{
-    transform: scale(1.01)
-}
-
-#instagram{
-    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
-}
-
-#Linkedin{
-    background-color: #4267b3;
-}
-
-#github{
-   background-color: black; 
-}
-
-#footer_social_media i {
-    color: #fff;
-}
-
 /* Projects Main */
 
 #projects {
     height: 100vh;
-    margin: 30px;
+    padding: 30px;
     background-color: #ececec;
 }
 
@@ -430,10 +380,10 @@ nav {
 /* Contact Main*/
 
 #contact {
-  background-color: var(--fundo);
+  background: #0e427c;
   justify-content: center;
   display: flex;
-  padding: 30px;
+  padding: 10px;
 }
 
 #contact h2 {
@@ -442,18 +392,6 @@ nav {
     padding-bottom: 20px;
     position: relative;
     color: #173b6c;
-}
-
-#contact h2::after {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 50px;
-    height: 3px;
-    background: #149ddd;
-    margin-left: 4px;
-    bottom: 0;
-    left: 0;
 }
 
 .contact-form{
@@ -465,6 +403,7 @@ nav {
     background: #ffffff;
     border: 1px solid black;
     border-radius: 15px;
+    margin-right: 10px;
     width: 500px;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
@@ -478,7 +417,6 @@ section form{
 form label{
     color: #000000;
     font-size: 17px;
-    margin-bottom: 4px;
 }
 
 form input{
@@ -486,7 +424,7 @@ form input{
     outline: none;
     border: 1px solid black;
     border-radius: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 15px;
     transition: all 0.5s;
 }
@@ -496,12 +434,12 @@ form input:focus{
 }
 
 form textarea{
-    padding: 10px;
+    padding: 8px;
     outline: none;
     border: 1px solid black;
     border-radius: 5px;
     font-size: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     transition: all 0.5s;
 }
 
@@ -527,42 +465,24 @@ form button:hover{
     border-radius: 16px;
 }
 
-.main{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    background: #101026;
-    flex-direction: column;
- }
- .text{
-     font-size: 45px;
-     color: #f5f5f5;
-     margin-bottom: 30px;
- }
- .paragrafo{
-     color: #f5f5f5;
-     margin-bottom: 50px;
- }
- .btn{
-     padding: 15px 55px;
-     background: #f5f5f5;
-     text-decoration: none;
-     color: #101026;
-     font-size: 18px;
-     transition: all 0.5s;
- }
- .btn:hover{
-     border-radius: 16px;
- }
-
+.txt-contact {
+    text-align: center;
+    font-size: 25px;
+    margin: 32px;
+    margin-top: 120px;
+    margin-right: 15px;
+    margin-left: 50px;
+}
 /* Footer Main*/
 
 footer{
     width: 100%;
     height: 100px;
     margin: 0;
-    background-color: black;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #241f1f;
 }
 
 .info-footer {
@@ -571,9 +491,55 @@ footer{
     height: 100%;
     color: #ffffff;
     font-size: 15px;
-    font-weight: 500;
     justify-content: center;
     align-items: center;
+}
+
+#footer_social_media {
+    display: inline-flex;
+    width: 220px;
+    border-radius: 35px;
+    gap: 2rem;
+    margin-right: 470px;
+    margin-left: 0;
+    position: relative;
+    align-items: left;
+    text-align: left;
+}
+
+#footer_social_media .footer-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: var(--color-neutral-40);
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+
+#footer_social_media .footer-link i{
+    font-size: 1.25rem;
+} 
+
+#footer_social_media .footer-link:hover{
+    transform: scale(1.01)
+}
+
+#instagram{
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+
+#Linkedin{
+    background-color: #4267b3;
+}
+
+#github{
+   background-color: black; 
+}
+
+#footer_social_media i {
+    color: #fff;
 }
 
 /* Responsividade */

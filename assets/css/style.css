@@ -258,67 +258,24 @@ nav {
     text-align: justify;
 }
 
-.info {
+.info1 {
     display: flex;
     margin-right: 0;
+}
+
+.info2 p {
+    color: #000000;
+    text-indent: 20px;
+    margin: 8px;
+    text-align: justify;
 }
 
 .img-about {
-    margin: 32px;
-    margin-top: 15px;
-    margin-right: 0;
-    margin-left: 0;
-    width: 400px;
+    margin-top: 8px;
+    width: 700px;
     height: 380px;
 }
 
-.info p {
-    margin: 35px;
-    margin-top: 0;
-    color: #000000;
-}
-
-.list {
-    margin-bottom: 50px;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-}
-
-.list-info {
-    color: #000000;
-    display: flex;
-    margin-top: 32px;
-    margin-left: 50px;
-    justify-content: space-around;
-}
-
-.list-info a {
-    text-decoration: underline;
-    color: #2884e0;
-}
-
-.list-info .seta {
-  margin-right: 10px;
-  width: 10px;
-  height: 10px;
-}
-
-.list-info li {
-  list-style: none;
-  margin-bottom: 32px;
-  margin-right: 35px;
-}
-
-.info1 {
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
-
-.info2 {
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
 
 /* Projects Main */
 
@@ -351,7 +308,7 @@ nav {
 .proje{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin: 70px;
+    margin: 40px;
     margin-left: 10%;
     align-items: center;
     justify-content: center;
@@ -376,113 +333,25 @@ nav {
 .projetos:hover{
     transform: scale(1.01)
 }
-
-/* Contact Main*/
-
-#contact {
-  background: #0e427c;
-  justify-content: center;
-  display: flex;
-  padding: 10px;
-}
-
-#contact h2 {
-    font-size: 32px;
-    font-weight: bold;
-    padding-bottom: 20px;
-    position: relative;
-    color: #173b6c;
-}
-
-.contact-form{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 10px 45px;
-    background: #ffffff;
-    border: 1px solid black;
-    border-radius: 15px;
-    margin-right: 10px;
-    width: 500px;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-}
-
-section form{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
-form label{
-    color: #000000;
-    font-size: 17px;
-}
-
-form input{
-    padding: 15px;
-    outline: none;
-    border: 1px solid black;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    font-size: 15px;
-    transition: all 0.5s;
-}
-
-form input:focus{
-    border-radius: 16px;
-}
-
-form textarea{
-    padding: 8px;
-    outline: none;
-    border: 1px solid black;
-    border-radius: 5px;
-    font-size: 15px;
-    margin-bottom: 15px;
-    transition: all 0.5s;
-}
-
-form textarea:focus{
-    border-radius: 16px;
-}
-
-form button{
-    padding: 15px;
-    cursor: pointer;
-    font-size: 16px;
-    background: transparent;
-    border: 1px solid black;
-    border-radius: 5px;
-    color: #000000;
-    transition: all 1s;
-    margin-bottom: 20px;
-}
-
-form button:hover{
-    background: #1e2661;
-    color: #ffffff;
-    border-radius: 16px;
-}
-
-.txt-contact {
-    text-align: center;
-    font-size: 25px;
-    margin: 32px;
-    margin-top: 120px;
-    margin-right: 15px;
-    margin-left: 50px;
-}
 /* Footer Main*/
 
 footer{
     width: 100%;
     height: 100px;
     margin: 0;
+    padding: 10px;
     align-items: center;
     text-align: center;
     justify-content: center;
     background-color: #241f1f;
+}
+
+footer p {
+    color: #fff;
+    font-size: 23px;
+    padding-top: 10px;
+    text-align: center;
+    background: #241f1f;
 }
 
 .info-footer {
@@ -497,22 +366,18 @@ footer{
 
 #footer_social_media {
     display: inline-flex;
-    width: 220px;
-    border-radius: 35px;
+    width: 250px;
     gap: 2rem;
-    margin-right: 470px;
     margin-left: 0;
     position: relative;
-    align-items: left;
-    text-align: left;
 }
 
 #footer_social_media .footer-link{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 2.5rem;
-    width: 2.5rem;
+    height: 40px;
+    width: 60px;
     color: var(--color-neutral-40);
     border-radius: 50%;
     transition: all 0.4s;
@@ -523,19 +388,24 @@ footer{
 } 
 
 #footer_social_media .footer-link:hover{
-    transform: scale(1.01)
+    color: #ada3a3;
+    opacity: .9;
 }
 
 #instagram{
     background: linear-gradient(#7f37c9, #ff2992, #ff9807);
 }
 
-#Linkedin{
+#linkedin{
     background-color: #4267b3;
 }
 
 #github{
    background-color: black; 
+}
+
+#email {
+    background-color: #b33314;
 }
 
 #footer_social_media i {

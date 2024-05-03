@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
 
+/* Reset CSS*/
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +8,7 @@
     font-family: "Open Sans", sans-serif;
 }
 
+/* Gerais*/
 :root {
     --ciano: rgb(13, 224, 224);
     --fundo: #ececec;
@@ -72,12 +74,9 @@ nav {
 }
   
 .nav-list {
+    align-items: center;
     list-style: none;
     display: flex;
-}
-
-.nav-list a{
-    text-decoration: none;
 }
 
 .nav-list li {

@@ -135,11 +135,10 @@ nav {
       right: 0;
       width: 50vw;
       height: 92vh;
-      background: #778899;
+      background: #241f1f;
       flex-direction: column;
       align-items: center;
       justify-content: space-around;
-      border-top: 1px solid #708090;
       transform: translateX(100%);
       transition: 0.3s ease-in;
     }
@@ -159,7 +158,9 @@ nav {
 #hero {
     width: 100%;
     height: 100vh;
-    background: #1779be;
+    background: url('https://img.freepik.com/fotos-gratis/3d-paisagem-montanhosa-com-ceu-por-do-sol_1048-11202.jpg') center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     align-items: center;
     justify-content: center;

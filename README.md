@@ -1,1 +1,1 @@
-https://devlucasp.github.io/portifolio/index.html
+https://devlucasp.github.io/portifolio/

@@ -1,1 +1,1 @@
-https://devlucasp.github.io/portifolio/
+https://devlucasp.github.io/curriculo/

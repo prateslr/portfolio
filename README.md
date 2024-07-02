@@ -1,1 +1,1 @@
-https://devlucasp.github.io/curriculo/
+https://pratestech.github.io/curriculo/

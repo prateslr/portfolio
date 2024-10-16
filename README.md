@@ -1,1 +1,1 @@
-https://pratestech.github.io/portfolio/
+https://prateslr.github.io/portfolio/
